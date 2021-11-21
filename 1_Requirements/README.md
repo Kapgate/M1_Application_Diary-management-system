@@ -29,12 +29,20 @@ like we give payment of the milk man at the starting of the month or any of the 
 application by addind his/her password and view record.
 
 WHERE :
-We can upload this application on play store.
-Where user can download it easily and send us feedback through it .
-User can complaint about it from where we uploaded this.
+It can be used anywhere
 
 WHAT :
-whatever issues user can be faced will be sortout within short pan of time.
+User use for keeping personal or official records.
+
+WHO: Any one can user this application.
+
+HOW : 
+By using while loops and switch cases we can create a program and run the code.
+
+
+## SWOT
+
+
 
 
 
