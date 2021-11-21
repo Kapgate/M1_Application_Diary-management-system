@@ -16,3 +16,13 @@ High Level Requirements
 Test_Id  | Description  | Expected_Input  | Expected_Output  |
 |--------|--------------|-----------------|-------------------|
 | 1     |  Password     | Enter Password  | Main Menu     |
+
+Low Level Requirements
+Test_Id  | Description       | Expected_Input   | Expected_Output |
+|---------| -----------------| ------------------|-----------------|
+| 1.     | Add Record        | 1                 |Enter date       |
+| 2.     | Veiw Record       | 2                 |Enter date       |
+| 3.     | Edit Record       | 3                 |Enter date       |
+| 4.     | Delete Record     | 4                 |Enter date       |
+
+
