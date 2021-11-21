@@ -41,7 +41,10 @@ By using while loops and switch cases we can create a program and run the code.
 by choosing any number from 1-5 you can edit,delete,view an event.
 
 
-## SWOT
+## SWOT 
+![SWOT analysis](https://user-images.githubusercontent.com/94162941/142772652-92f1e02f-0e51-4f36-aaca-e2cf07d7f001.jpg)
+
+
 
 
 
