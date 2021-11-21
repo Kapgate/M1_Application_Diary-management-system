@@ -40,13 +40,25 @@ HOW :
 By using while loops and switch cases we can create a program and run the code.
 by choosing any number from 1-5 you can edit,delete,view an event.
 
-
+ 
 ## SWOT 
 ![SWOT analysis](https://user-images.githubusercontent.com/94162941/142772652-92f1e02f-0e51-4f36-aaca-e2cf07d7f001.jpg)
 
 ## Detailed Requirements
 
 High Level Requirements
+Test_Id  | Description  | Expected_Input  | Expected_Output  |
+|--------|--------------|-----------------|-------------------|
+| 1     |  Password     | Enter Password  | Main Menu     |
+
+
+Low Level Requirements
+Test_Id  | Description       | Expected_Input   | Expected_Output |
+|---------| -----------------| ------------------|-----------------|
+| 1.     | Add Record        | 1                 |Enter date       |
+| 2.     | Veiw Record       | 2                 |Enter date       |
+| 3.     | Edit Record       | 3                 |Enter date       |
+| 4.     | Delete Record     | 4                 |Enter date       |
 
 
 
