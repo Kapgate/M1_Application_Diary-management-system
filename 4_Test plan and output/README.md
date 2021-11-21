@@ -9,3 +9,10 @@
   Test_Id |    Description       |  Expected_Input|  Expected_output  |  Actual_output| Type_of_test|
 | -------- |   --------------     |  -------------- | ---------------  | ------------- | -------------|
 | HP01     |   User Interface     |  Character Y    | Enter The Answer | Pass          | Requrirement |
+
+
+
+High Level Requirements
+Test_Id  | Description  | Expected_Input  | Expected_Output  |
+|--------|--------------|-----------------|-------------------|
+| 1     |  Password     | Enter Password  | Main Menu     |
