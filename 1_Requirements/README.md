@@ -38,9 +38,11 @@ WHO: Any one can user this application.
 
 HOW : 
 By using while loops and switch cases we can create a program and run the code.
+by choosing any number from 1-5 you can edit,delete,view an event.
 
 
 ## SWOT
+
 
 
 
