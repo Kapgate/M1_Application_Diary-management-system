@@ -6,7 +6,6 @@
 
 
 ## Low level test plan
-
+  Test_Id |    Description       |  Expected_Input|  Expected_output  |  Actual_output| Type_of_test|
 | -------- |   --------------     |  -------------- | ---------------  | ------------- | -------------|
-
 | HP01     |   User Interface     |  Character Y    | Enter The Answer | Pass          | Requrirement |
