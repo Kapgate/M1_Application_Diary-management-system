@@ -1,0 +1,51 @@
+#include "unity.h"
+#include <diary_management.h>
+
+
+#include <diary_management.h>
+#define PROJECT_NAME    "diary_management_system"
+
+
+void test_addrecord(void);
+void test_veiwrecord(void);
+void test_editrecord(void);
+void test_deleterecord(void);
+void test_editpassword(void);
+void test_exit(void);
+
+
+
+void setUp(){}
+
+void tearDown(){}
+
+
+int main()
+{
+
+  UNITY_BEGIN();
+
+
+  RUN_TEST(test_addrecord);
+  RUN_TEST(test_editrecord);
+  RUN_TEST(test_deleterecord);
+  RUN_TEST(test_editpassword);
+  RUN_TEST(test_exitrecord);
+
+  
+  return UNITY_END();
+}
+
+void test_addrecord(void) {
+  
+    char time[6];
+
+    char name[30];
+
+    char place[25];
+
+    char duration[10];
+
+    char note[500];
+}
+
