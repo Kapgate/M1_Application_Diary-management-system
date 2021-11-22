@@ -1,4 +1,4 @@
-## Code
+
 
 #include<stdio.h>
 
