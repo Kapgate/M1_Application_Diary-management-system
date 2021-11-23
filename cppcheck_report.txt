@@ -1,0 +1,317 @@
+3_Implimentation/multifile/diary.c:157:1: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+gets(filename);
+^
+3_Implimentation/multifile/diary.c:223:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.name);
+        ^
+3_Implimentation/multifile/diary.c:229:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.place);
+        ^
+3_Implimentation/multifile/diary.c:235:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.duration);
+        ^
+3_Implimentation/multifile/diary.c:241:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.note);
+        ^
+3_Implimentation/multifile/diary.c:302:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(filename);
+    ^
+3_Implimentation/multifile/diary.c:368:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(time);
+        ^
+3_Implimentation/multifile/diary.c:455:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(filename);
+    ^
+3_Implimentation/multifile/diary.c:459:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(time);
+    ^
+3_Implimentation/multifile/diary.c:534:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.time);
+                    ^
+3_Implimentation/multifile/diary.c:543:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.name);
+                    ^
+3_Implimentation/multifile/diary.c:552:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.place);
+                    ^
+3_Implimentation/multifile/diary.c:561:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.duration);
+                    ^
+3_Implimentation/multifile/diary.c:570:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.note);
+                    ^
+3_Implimentation/multifile/diary.c:579:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.time);
+                    ^
+3_Implimentation/multifile/diary.c:583:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.name);
+                    ^
+3_Implimentation/multifile/diary.c:587:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.place);
+                    ^
+3_Implimentation/multifile/diary.c:591:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.duration);
+                    ^
+3_Implimentation/multifile/diary.c:595:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.note);
+                    ^
+3_Implimentation/multifile/diary.c:1095:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(filename);
+            ^
+3_Implimentation/multifile/diary.c:1127:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(filename);
+            ^
+3_Implimentation/multifile/diary.c:1165:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(time);
+            ^
+3_Implimentation/multifile/diary.c:155:1: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+fflush(stdin);
+^
+3_Implimentation/multifile/diary.c:189:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/diary.c:221:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:225:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:231:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:237:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:243:9: error: Read and write operations without a call to a positioning function (fseek, fsetpos or rewind) or fflush in between result in undefined behaviour. [IOWithoutPositioning]
+        fwrite ( &e, sizeof ( e ), 1, fp ) ;
+        ^
+3_Implimentation/multifile/diary.c:251:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush ( stdin ) ;
+    ^
+3_Implimentation/multifile/diary.c:300:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/diary.c:364:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:405:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/diary.c:453:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/diary.c:519:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implimentation/multifile/diary.c:523:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implimentation/multifile/diary.c:897:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/diary.c:1093:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/diary.c:1125:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/diary.c:1163:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/diary.c:1202:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/diary.c:193:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",time);
+    ^
+3_Implimentation/multifile/diary.c:871:1: error: Resource handle 'fp' freed twice. [doubleFree]
+fclose(fp);
+^
+3_Implimentation/multifile/diary.c:863:5: note: Resource handle 'fp' freed twice.
+    fclose(fp);
+    ^
+3_Implimentation/multifile/diary.c:871:1: note: Resource handle 'fp' freed twice.
+fclose(fp);
+^
+3_Implimentation/multifile/diary.c:145:5: style: The scope of the variable 'choice' can be reduced. [variableScope]
+int choice;
+    ^
+3_Implimentation/multifile/diary.c:708:7: style: The scope of the variable 'fpp' can be reduced. [variableScope]
+FILE *fpp;
+      ^
+3_Implimentation/multifile/diary.c:710:5: style: The scope of the variable 'i' can be reduced. [variableScope]
+int i=0,j;
+    ^
+3_Implimentation/multifile/diary.c:786:12: warning: Storing fgetc() return value in char variable and then comparing with EOF. [checkCastIntToCharAndBack]
+        if(ch==EOF)
+           ^
+3_Implimentation/multifile/diary.c:710:6: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+int i=0,j;
+     ^
+3_Implimentation/multifile/srccode.c:158:1: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+gets(filename);
+^
+3_Implimentation/multifile/srccode.c:224:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.name);
+        ^
+3_Implimentation/multifile/srccode.c:230:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.place);
+        ^
+3_Implimentation/multifile/srccode.c:236:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.duration);
+        ^
+3_Implimentation/multifile/srccode.c:242:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(e.note);
+        ^
+3_Implimentation/multifile/srccode.c:303:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(filename);
+    ^
+3_Implimentation/multifile/srccode.c:369:9: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+        gets(time);
+        ^
+3_Implimentation/multifile/srccode.c:456:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(filename);
+    ^
+3_Implimentation/multifile/srccode.c:460:5: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+    gets(time);
+    ^
+3_Implimentation/multifile/srccode.c:535:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.time);
+                    ^
+3_Implimentation/multifile/srccode.c:544:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.name);
+                    ^
+3_Implimentation/multifile/srccode.c:553:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.place);
+                    ^
+3_Implimentation/multifile/srccode.c:562:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.duration);
+                    ^
+3_Implimentation/multifile/srccode.c:571:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.note);
+                    ^
+3_Implimentation/multifile/srccode.c:580:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.time);
+                    ^
+3_Implimentation/multifile/srccode.c:584:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.name);
+                    ^
+3_Implimentation/multifile/srccode.c:588:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.place);
+                    ^
+3_Implimentation/multifile/srccode.c:592:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.duration);
+                    ^
+3_Implimentation/multifile/srccode.c:596:21: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+                    gets(customer.note);
+                    ^
+3_Implimentation/multifile/srccode.c:1096:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(filename);
+            ^
+3_Implimentation/multifile/srccode.c:1128:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(filename);
+            ^
+3_Implimentation/multifile/srccode.c:1166:13: warning: Obsolete function 'gets' called. It is recommended to use 'fgets' or 'gets_s' instead. [getsCalled]
+            gets(time);
+            ^
+3_Implimentation/multifile/srccode.c:156:1: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+fflush(stdin);
+^
+3_Implimentation/multifile/srccode.c:190:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/srccode.c:222:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:226:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:232:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:238:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:244:9: error: Read and write operations without a call to a positioning function (fseek, fsetpos or rewind) or fflush in between result in undefined behaviour. [IOWithoutPositioning]
+        fwrite ( &e, sizeof ( e ), 1, fp ) ;
+        ^
+3_Implimentation/multifile/srccode.c:252:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush ( stdin ) ;
+    ^
+3_Implimentation/multifile/srccode.c:301:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/srccode.c:365:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:406:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/srccode.c:454:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/srccode.c:520:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implimentation/multifile/srccode.c:524:17: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+                fflush(stdin);
+                ^
+3_Implimentation/multifile/srccode.c:898:9: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+        fflush(stdin);
+        ^
+3_Implimentation/multifile/srccode.c:1094:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/srccode.c:1126:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/srccode.c:1164:13: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+            fflush(stdin);
+            ^
+3_Implimentation/multifile/srccode.c:1203:5: portability: fflush() called on input stream 'stdin' may result in undefined behaviour on non-linux systems. [fflushOnInputStream]
+    fflush(stdin);
+    ^
+3_Implimentation/multifile/srccode.c:194:5: warning: scanf() without field width limits can crash with huge input data. [invalidscanf]
+    scanf("%s",time);
+    ^
+3_Implimentation/multifile/srccode.c:872:1: error: Resource handle 'fp' freed twice. [doubleFree]
+fclose(fp);
+^
+3_Implimentation/multifile/srccode.c:864:5: note: Resource handle 'fp' freed twice.
+    fclose(fp);
+    ^
+3_Implimentation/multifile/srccode.c:872:1: note: Resource handle 'fp' freed twice.
+fclose(fp);
+^
+3_Implimentation/multifile/srccode.c:146:5: style: The scope of the variable 'choice' can be reduced. [variableScope]
+int choice;
+    ^
+3_Implimentation/multifile/srccode.c:709:7: style: The scope of the variable 'fpp' can be reduced. [variableScope]
+FILE *fpp;
+      ^
+3_Implimentation/multifile/srccode.c:711:5: style: The scope of the variable 'i' can be reduced. [variableScope]
+int i=0,j;
+    ^
+3_Implimentation/multifile/srccode.c:787:12: warning: Storing fgetc() return value in char variable and then comparing with EOF. [checkCastIntToCharAndBack]
+        if(ch==EOF)
+           ^
+3_Implimentation/multifile/srccode.c:711:6: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+int i=0,j;
+     ^
+3_Implimentation/source/diary_operations.c:25:10: style: struct member 'record::time' is never used. [unusedStructMember]
+    char time[6];
+         ^
+3_Implimentation/source/diary_operations.c:27:10: style: struct member 'record::name' is never used. [unusedStructMember]
+    char name[30];
+         ^
+3_Implimentation/source/diary_operations.c:29:10: style: struct member 'record::place' is never used. [unusedStructMember]
+    char place[25];
+         ^
+3_Implimentation/source/diary_operations.c:31:10: style: struct member 'record::duration' is never used. [unusedStructMember]
+    char duration[10];
+         ^
+3_Implimentation/source/diary_operations.c:33:10: style: struct member 'record::note' is never used. [unusedStructMember]
+    char note[500];
+         ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
