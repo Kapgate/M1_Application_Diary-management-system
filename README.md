@@ -7,3 +7,4 @@ It is the Personal Diary Managment system application.
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/603c8843fb104947895b19857234abd4)](https://www.codacy.com/gh/Kapgate/M1_Application_Diary-management-system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kapgate/M1_Application_Diary-management-system&amp;utm_campaign=Badge_Grade)
 
 
+<a href="https://www.codacy.com/gh/Kapgate/M1_Application_Diary-management-system/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kapgate/M1_Application_Diary-management-system&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/603c8843fb104947895b19857234abd4"/></a>
