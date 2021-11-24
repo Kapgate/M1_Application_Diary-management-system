@@ -12,4 +12,4 @@ https://api.codiga.io/project/29843/status/svg
 
 [![cppcheck-action-test](https://github.com/Kapgate/M1_Application_Diary-management-system/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Kapgate/M1_Application_Diary-management-system/actions/workflows/cppcheck.yml)
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/valgrind.svg)](https://repology.org/project/valgrind/versions)
+
