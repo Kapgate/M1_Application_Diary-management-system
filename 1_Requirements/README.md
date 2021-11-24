@@ -51,16 +51,16 @@ by choosing any number from 1-5 you can edit,delete,view an event.
 High Level Requirements
 Test_Id  | Description  | Expected_Input  | Expected_Output  | Status |
 |--------|--------------|-----------------|-------------------|-------|
-| 1     |  Password     | Enter Password  | Main Menu     |  Implemented|
+| HLR_1     |  Password     | Enter Password  | Main Menu     |  Implemented|
 
 
 Low Level Requirements
 Test_Id  | Description       | Expected_Input   | Expected_Output |  Status   |
 |---------| -----------------| ------------------|-----------------|----------|
-| 1.     | Add Record        | 1                 |Enter date       |  Implemented |
-| 2.     | Veiw Record       | 2                 |Enter date       | Implemented |
-| 3.     | Edit Record       | 3                 |Enter date       | Implemented  |
-| 4.     | Delete Record     | 4                 |Enter date       |  Implemented  |
+| LLR_1.     | Add Record        | 1                 |Enter date       |  Implemented |
+| LLR_2.     | Veiw Record       | 2                 |Enter date       | Implemented |
+| LLR_3.     | Edit Record       | 3                 |Enter date       | Implemented  |
+| LLR_4.     | Delete Record     | 4                 |Enter date       |  Implemented  |
 
 
 
