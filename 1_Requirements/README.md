@@ -16,6 +16,8 @@ By entering only dates we can watch our records.
 
 ## Stage of Art
 
+Before the technology comes everyone were record their events in books by pen and paper.
+But now we can do thid only just putting date and adding a note.
 It  works within seconds.
 it takes few minutes to add your note or add your record
 It is very friendly for you. You can add, delete,veiw,edit the records. It ask for a pass word which only you can set for view your records.
