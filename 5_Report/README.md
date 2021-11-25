@@ -2,7 +2,7 @@ The act of record-keeping is as old as man and its role cannot be over emphasis,
 
 In this project first you enter the passwor the enter date then you will see the hrs.
 Then add note.
- # In the Requirements folder you can se the al the features and SWOT analysis ans all.
+ # In the Requirements folder you can se the al the features and SWOT analysis and all.
  # In Architecture folder you will find structural and behavioral diagram of project.
  # In Implementation folder the code of project ,tests,makefie and multifile aare there,
  # In Test plan and output there are commands are given.
